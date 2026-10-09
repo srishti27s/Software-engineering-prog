@@ -1,4 +1,4 @@
-# Software-engineering-prog
+
 # 90-Day Software Engineer Progress
 
 A structured 90-day learning journey focused on Data Structures and Algorithms, full-stack development, Generative AI, and software engineering fundamentals.
