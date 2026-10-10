@@ -1,0 +1,95 @@
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  font-family: Arial, sans-serif;
+  color: #202938;
+}
+
+.dashboard header {
+  margin-bottom: 32px;
+}
+
+.dashboard header p {
+  color: #64748b;
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.progress-card {
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.progress-card h3 {
+  margin-top: 0;
+  font-size: 15px;
+  color: #64748b;
+}
+
+.progress-value {
+  margin: 12px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .progress-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.goals-section {
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.progress-track {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e2e8f0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #16a34a;
+  transition: width 0.25s ease;
+}
+
+.goals-list {
+  padding: 0;
+  list-style: none;
+}
+
+.goals-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.goals-list label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.completed {
+  color: #64748b;
+  text-decoration: line-through;
+}
